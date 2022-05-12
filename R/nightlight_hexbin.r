@@ -86,7 +86,7 @@ for (u in url){
 
 # enlist raster files, merge them into a single file and re-project
 rastfiles <- list.files(path = getwd(), 
-    pattern = ".tif$",
+    pattern = "Harmonized_DN_NTL_",
     all.files=T, 
     full.names=F)
 
